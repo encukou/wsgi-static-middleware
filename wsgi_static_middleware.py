@@ -30,7 +30,7 @@ def get_content_length(filename):
 
 
 def generate_last_modified():
-    last_modified = time.strftime("%a, %d %b %Y %H:%M:%sS GMT", time.gmtime())
+    last_modified = time.strftime("%a, %d %b %Y %H:%M:%S GMT", time.gmtime())
     return last_modified
 
 
